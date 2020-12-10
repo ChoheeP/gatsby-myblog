@@ -1,0 +1,25 @@
+.index-box {
+    border:1px solid gray;
+    margin: 50px 60px;
+    text-align: center;
+    padding:35px 0;
+    box-shadow: 10px 10px 10px  white;
+    font-size: 40px;
+}
+
+.index-box:hover {
+    font-size: 45px;
+}
+
+.index-box p:first-child {
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    float: left;
+}
+
+.index-box p:last-child {
+    font-weight: bold;
+    color: white;
+    float: right;
+}
