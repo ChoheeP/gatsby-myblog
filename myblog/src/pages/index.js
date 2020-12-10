@@ -11,19 +11,19 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Link to="/404" style={{textDecoration:`none`}}>
       <div className="index-box">
-        <p>About me</p><p>></p>
+        <p>About me</p>
       </div>
     </Link>
 
     <Link to="/404" style={{textDecoration:`none`}}>
       <div className="index-box">
-        <p>skills</p><p>></p>
+        <p>skills</p>
       </div>
     </Link>
 
     <Link to="/404" style={{textDecoration:`none`}}>
       <div className="index-box">
-        <p>Contact me</p><p>></p>
+        <p>Contact me</p>
       </div>
     </Link>
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>

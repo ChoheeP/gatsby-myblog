@@ -1,25 +1,22 @@
 .index-box {
     border:1px solid gray;
-    margin: 50px 60px;
+    margin: 30px 30px;
     text-align: center;
-    padding:35px 0;
+    padding:20px 10px;
     box-shadow: 10px 10px 10px  white;
-    font-size: 40px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .index-box:hover {
-    font-size: 45px;
+    font-size: 40px;
 }
 
-.index-box p:first-child {
-    margin-left: 20px;
-    font-weight: bold;
-    color: white;
-    float: left;
-}
 
-.index-box p:last-child {
+.index-box p {
     font-weight: bold;
     color: white;
-    float: right;
 }

@@ -35,7 +35,8 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer style={{
-          marginBottom: `0`
+          marginBottom:`0`,
+          paddingBottom:`0`
         }}>
           © {new Date().getFullYear()}, Go to git
           {` `}
