@@ -1,0 +1,21 @@
+/* .contact-div {
+}
+
+.contact-div p {
+    font-size: 20px;
+    transition:font-size 2s ease-in;
+}
+
+.contact-div p:hover {
+    font-size: 30px;
+} */
+
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 70px;
+    border-bottom:2px solid gray;
+    border-top:2px solid gray;
+}

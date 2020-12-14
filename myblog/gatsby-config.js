@@ -3,6 +3,24 @@ module.exports = {
     title: `Chohui blog`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
+    menuLinks : [
+      {
+        name: `home`,
+        link: `/`,
+      },
+      {
+        name: `about`,
+        link: `/about`,
+      },
+      {
+        name:`skill`,
+        link:`/skill`,
+      },
+      {
+        name:`contact`,
+        link:`/contact,`
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,6 +29,12 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-layout',
+      options: {
+        component: require.resolve('./src/components/layout.js'),
       },
     },
     `gatsby-transformer-sharp`,

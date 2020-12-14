@@ -7,30 +7,26 @@ import SEO from "../components/seo"
 import "./index.css"
 
 const IndexPage = () => (
-  <Layout>
+ <div>
     <SEO title="Home" />
-    <Link to="/404" style={{textDecoration:`none`}}>
+    <Link to="/about" style={{textDecoration:`none`}}>
       <div className="index-box">
         <p>About me</p>
       </div>
     </Link>
 
-    <Link to="/404" style={{textDecoration:`none`}}>
+    <Link to="/skill" style={{textDecoration:`none`}}>
       <div className="index-box">
         <p>skills</p>
       </div>
     </Link>
 
-    <Link to="/404" style={{textDecoration:`none`}}>
+    <Link to="/contact" style={{textDecoration:`none`}}>
       <div className="index-box">
         <p>Contact me</p>
       </div>
     </Link>
-    {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
-  </Layout>
+</div>
 )
 
 export default IndexPage
